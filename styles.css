@@ -1,0 +1,53 @@
+
+/* .CV{
+    margin-left: 20vh;
+} */
+.bgcol{
+    background-color: #FFFFEC;
+}
+.profile{
+    margin-left: 10vh;
+}
+.paint{
+    margin-top: 20vh;
+}
+.self-name{
+    margin-left: 5vh;
+   padding-top: 15vh;
+}
+.my-look{
+    height: 500px;
+    width: 100px;
+
+}
+footer{
+    margin-top: 10vh;
+}
+.ani-1{
+    margin: 0%;
+    margin-left: 50px;
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 2s;
+ 
+  }
+  @keyframes mymove {
+    from {left:70px;}
+    to {left: 0px;}
+  }
+/* ---->experience----- */
+#chatbg{
+    background-color: #F28585;
+}
+.ani-2{
+    margin: 0%;
+    margin-right: 50px;
+    position: relative;
+    animation-name: exmove;
+    animation-duration: 2s;
+ 
+  }
+@keyframes exmove {
+    from {right:100px;}
+    to {right: 0px;}
+  }
